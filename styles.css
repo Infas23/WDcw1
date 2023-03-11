@@ -28,13 +28,14 @@ img{
     height: 900px;
     top: 3%;
     margin: 0 auto;
-    position: relative;
     background:lightblue;
     border-radius: 20px;
     display: flex;  
     padding-top: 30px;
     border-bottom-left-radius: 20px;
     background-image: url(background.png);
+    background-position: center;
+    background-size: contain;
     
     
 }
@@ -83,7 +84,7 @@ li a{
 .overview{
     color: aliceblue;
     width: 400px;
-    padding-left: 50px;
+    padding-left: 120px;
     margin-top: 580px;
 }
 
@@ -110,10 +111,15 @@ li a{
 .arrow{
     width: 30px;
     height:30px;
-    margin-left: 300px;
+    margin-left: 370px;
     margin-top: -40px;
     
     
 
 }
-
+.logo{
+    width: 90px;
+    height: 90px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
