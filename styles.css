@@ -83,6 +83,8 @@ li a{
 .overview{
     color: aliceblue;
     width: 400px;
+    padding-left: 50px;
+    margin-top: 580px;
 }
 
 .outer-container{
@@ -104,5 +106,14 @@ li a{
     position: relative;
     background:rgb(234, 79, 87);
     border-radius: 20px;
+}
+.arrow{
+    width: 30px;
+    height:30px;
+    margin-left: 300px;
+    margin-top: -40px;
+    
+    
+
 }
 
